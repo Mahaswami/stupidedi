@@ -60,22 +60,3 @@ class Rational
   end
 end
 
-class Float
-
-  # Raises a `TypeError` exception. The reason this method is defined at
-  # all is to produce a more meaningful error than `NoSuchMethod`.
-  #
-  # @return [void]
-  def to_d
-    # The problem is there isn't a way to know the correct precision,
-    # since there are (many) values that cannot be represented exactly
-    # using Floats. For instance, we can't assume which value is correct
-    #
-    #   "%0.10f" % 1.8 #=> "1.8000000000"
-    #   "%0.20f" % 1.8 #=> "1.80000000000000004441"
-    #
-    # The programmer should convert the Float to a String using whatever
-    # precision he chooses, and call #to_d on the String.
-    raise TypeError, "cannot convert Float to BigDecimal"
-  end
-end
