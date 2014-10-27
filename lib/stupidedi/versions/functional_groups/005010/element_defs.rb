@@ -324,6 +324,7 @@ module Stupidedi
               "361" => "Initial Disability Period End",
               "405" => "Production",
               "431" => "Onset of Current Symptoms or Illness",
+			  "434" => "Statement Dates",
               "435" => "Admission",
               "439" => "Accident",
               "444" => "First Visit or Consultation",
