@@ -8,7 +8,6 @@ module Stupidedi
 
       autoload :SegmentReqs,  "stupidedi/guides/005010/segment_reqs"
       autoload :ElementReqs,  "stupidedi/guides/005010/element_reqs"
-
       autoload :GuideBuilder, "stupidedi/guides/005010/guide_builder"
 
       module X214
@@ -35,13 +34,9 @@ module Stupidedi
     #   autoload :HC837I,  "stupidedi/guides/005010/X223-HC837I"
     # end
 
-    # module X223A1
-    #   autoload :HC837I,  "stupidedi/guides/005010/X223A1-HC837I"
+    # module X223A1-HC837I
+    #   autoload :HC837I,  "stupidedi/guides/005010/X223A1-HC837I-HC837I"
     # end
-      
-      module X223A2
-       autoload :HC837I,  "stupidedi/guides/005010/X223A2-HC837I"
-      end
 
     # module X224
     #   autoload :HC837D,  "stupidedi/guides/005010/X224-HC837D"
