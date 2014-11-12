@@ -30,9 +30,13 @@ module Stupidedi
         autoload :HC837P,  "stupidedi/guides/005010/X222A1-HC837P"
       end
 
-    # module X223
-    #   autoload :HC837I,  "stupidedi/guides/005010/X223-HC837I"
-    # end
+      module X223A1
+       autoload :HC837I,  "stupidedi/guides/005010/X223A1-HC837I"
+      end
+
+      module X223A2
+       autoload :HC837I,  "stupidedi/guides/005010/X223A2-HC837I"
+      end
 
     # module X223A1-HC837I
     #   autoload :HC837I,  "stupidedi/guides/005010/X223A1-HC837I-HC837I"
