@@ -1363,7 +1363,7 @@ module Stupidedi
                     b::Element(e::NotUsed,     "REFERENCE IDENTIFIER")))),
 
               d::LoopDef.build("2400 SERVICE LINE NUMBER",
-                d::RepeatCount.bounded(50),
+                d::RepeatCount.bounded(999),
                 b::Segment(3650, s::LX, "Service Line Number",
                   r::Required, d::RepeatCount.bounded(1),
                   b::Element(e::Required,    "Assigned Number")),
